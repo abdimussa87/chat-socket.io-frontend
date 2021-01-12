@@ -17,7 +17,7 @@ function Chat(props) {
     const scrollToBottom = useScrollToBottom();
     const [sticky] = useSticky();
 
-    const ENDPOINT = 'localhost:8080'
+    const ENDPOINT = 'https://chat-socket-io-nodejs.herokuapp.com/'
     useEffect(() => {
         const { name, room } = queryString.parse(props.location.search)
         socket = io(ENDPOINT);
