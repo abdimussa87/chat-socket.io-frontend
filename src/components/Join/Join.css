@@ -1,0 +1,44 @@
+.join {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1a1d;
+}
+.join__container {
+  width: 30%;
+}
+.join__header {
+  border-bottom: 3px solid white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.join__header > h3 {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  padding-bottom: 5px;
+}
+
+.join__body > form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.join__body > form > input {
+  margin: 10px 0px;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+.join__body > form > button {
+  background-color: #2979ff;
+  padding: 14px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
